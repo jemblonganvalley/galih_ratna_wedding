@@ -1,4 +1,10 @@
 
+window.addEventListener("load", async ()=>{
+    var bMusic = new Audio('https://stafaband123.com/app.php?id=338290153')
+	let pl = await bMusic.play()
+})
+
+
 let menu_icon = document.getElementById("menu_icon")
 let close_icon = document.getElementById("close_icon")
 
